@@ -1,0 +1,27 @@
+.button {
+	border: none;
+	background-color: var(--nn-color-primary-500);
+	color: white;
+	border-radius: 4px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 12px 14px;
+	font-family: 'Urbanist';
+	cursor: pointer;
+	transition: all 0.2s
+}
+
+.button:hover {
+	background-color: var(--nn-color-primary-550);
+}
+
+.button:disabled {
+	background-color: var(--nn-color-black-400);
+	cursor: default;
+}
+
+.button--secondary {
+	background-color: var(--nn-color-primary-50);
+	color: var(--nn-color-primary-500);
+}

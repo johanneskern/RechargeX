@@ -1,0 +1,50 @@
+:root {
+	--nn-color-primary-500: #4C53F0;
+	--nn-color-primary-550: #3A40B9;
+	--nn-color-primary-600: #3337A1;
+	--nn-color-primary-50: #EFF0FC;
+
+	--nn-color-black-0: #FFFFFF;
+	--nn-color-black-50: #FBFAFF;
+	--nn-color-black-75: #F2F1FF;
+	--nn-color-black-100: #DCD9FF;
+	--nn-color-black-200: #C5C3E8;
+	--nn-color-black-250: rgba(255, 255, 255, 0.7);
+	--nn-color-black-300: #AFADD2;
+	--nn-color-black-400: #9A98BC;
+	--nn-color-black-450: rgba(220, 217, 255, 0.5);
+	--nn-color-black-500: #8583A6;
+	--nn-color-black-600: #706F91;
+	--nn-color-black-700: #494868;
+	--nn-color-black-800: #373655;
+	--nn-color-black-900: #0D0D29;
+	--nn-color-black-1000: #000000;
+
+	--nn-color-brown-0: #808080;
+	--nn-color-brown-50: #666666;
+
+	--nn-color-tint-1: #E6E7FC;
+	--nn-color-tint-2: #DDE9FD;
+	--nn-color-tint-3: #EDE8F3;
+
+	--nn-color-success-50: #EBFFF1;
+	--nn-color-success-500: #06B259;
+	--nn-color-success-700: #00721E;
+
+	--nn-color-alert-50: #FFFAC7;
+	--nn-color-alert-500: #A18400;
+	--nn-color-alert-700: #735C00;
+
+	--nn-color-error-50: #FFF0ED;
+	--nn-color-error-500: #E05A59;
+	--nn-color-error-700: #AF2D34;
+
+	--toastify-color-light: #fff;
+	--toastify-color-dark: #0D0D29;
+	--toastify-color-info: #4C53F0;
+	--toastify-color-success: #06B259;
+	--toastify-color-warning: #A18400;
+	--toastify-color-error: #E05A59;
+	--toastify-text-color-light: #8583A6;
+	--toastify-spinner-color: #8583A6;
+}

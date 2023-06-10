@@ -1,0 +1,88 @@
+.input__wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+	position: relative;
+}
+
+.input {
+	width: 320px;
+	height: 48px;
+	outline: none;
+	background-color: var(--nn-color-black-0);
+	border: 1px solid var(--nn-color-black-200);
+	border-radius: 2px;
+	padding: 12px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 22px;
+	color: var(--nn-color-black-700);
+	transition: all 0.2s;
+	font-family: 'Urbanist';
+}
+
+.input::placeholder {
+	font-family: 'Urbanist';
+	color: var(--nn-color-black-400);
+}
+
+.input:disabled {
+	opacity: 0.5;
+	border: 1px solid var(--nn-color-black-75) !important;
+}
+
+.input--error {
+	border: 1px solid var(--nn-color-error-500);
+}
+
+.input:focus, .input:hover {
+	border: 1px solid var(--nn-color-primary-500);
+}
+
+
+/* Removing background-color for browser input css*/
+.input__wrapper input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.input--read-only {
+	cursor: default;
+	opacity: 0.5;
+	border: unset !important;
+}
+
+.input__feedback {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	color: var(--nn-color-error-500);
+	position: absolute;
+	top: 50px;
+}
+
+.input--icon {
+	position: relative;
+}
+
+.input--icon input {
+	padding-left: 33px;
+}
+
+.input--icon input,
+.input--icon input + svg path {
+	transition: all 0.2s;
+}
+
+.input--icon input:focus {
+	border: 1px solid var(--nn-color-primary-500);
+}
+
+.input--icon input:focus + svg path {
+	fill: var(--nn-color-primary-500) !important;
+}
+
+.input--icon svg {
+	position: absolute;
+	top: 17px;
+	left: 12px;
+}
