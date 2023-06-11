@@ -36,3 +36,8 @@ This function receives data coming from the smart contract via Nerif Network Wor
 When a function is triggered, the logic gets encrypted phone number and amount to charge, identifies what provider to talk with, 
 and then executes a specific API call in order to top up the given phone number.
 
+### Chiado Gateway
+The application is using the Gnosis Gateway.fm via Nerif Network
+
+![chiado.png](docs/chiado.png)
+
